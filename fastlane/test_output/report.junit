@@ -5,7 +5,7 @@
     <testcase classname='SampleFrameworkTests.SampleFrameworkTests' name='test2' time='0.000'/>
     <testcase classname='SampleFrameworkTests.SampleFrameworkTests' name='test440' time='0.000'/>
     <testcase classname='SampleFrameworkTests.SampleFrameworkTests' name='testNeg1' time='0.000'/>
-    <testcase classname='SampleFrameworkTests.SampleFrameworkTests' name='testNeg2' time='0.001'/>
+    <testcase classname='SampleFrameworkTests.SampleFrameworkTests' name='testNeg2' time='0.000'/>
     <testcase classname='SampleFrameworkTests.SampleFrameworkTests' name='testZero' time='0.000'/>
   </testsuite>
 </testsuites>
