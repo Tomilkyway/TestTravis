@@ -1,6 +1,12 @@
 lane :funky do
-  scan(
-    code_coverage: true,
-    open_report: true
-  )
+  scan
+  if git_branch() == "master"
+    funky_deploy
+  #elsif git_branch() == "master"
+  end
+end
+
+lane :funky_deploy do
+  pod_lib_lint
+  print "[!!!] Deploy\n"
 end
