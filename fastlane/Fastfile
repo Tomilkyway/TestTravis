@@ -8,5 +8,5 @@ end
 
 lane :funky_deploy do
   pod_lib_lint
-  print "[!!!] Deploy\n"
+  pod_push
 end
